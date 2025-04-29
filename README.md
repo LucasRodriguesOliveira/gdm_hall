@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hall
 
-## Getting Started
+gdm_hall
 
-First, run the development server:
+GDM Back-end engineer test Project
+
+## Description
+
+Hall is a front-end react/next application with the purpose to show results and interact directly with [Scribe API](http://github.com/LucasRodriguesOliveira/gdm_scribe) and [Whisper API](http://github.com/LucasRodriguesOliveira/gdm_whisper) to manage contact data, such as new contacts, list, and integration via file upload (csv);
+
+## Run Project Locally
+
+You can run the development server with:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+$ yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+For a more quick response in loading the pages, you can generate a build and run a production build:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+$ yarn build
+$ yarn start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project is expected to run with other projects such as [Scribe](http://github.com/LucasRodriguesOliveira/gdm_scribe), [Whisper](https://github.com/LucasRodriguesOliveira/gdm_whisper) and [Forge](https://github.com/LucasRodriguesOliveira/gdm_forge)
 
-## Learn More
+It's recommended to run the other projects before, so you can interact without errors. You can start this project before the others, but would be better waiting for **Scribe**, **Forge** and **Whisper** to run
 
-To learn more about Next.js, take a look at the following resources:
+## Tests
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project works perfectly as a e2e test suite for **Scribe** and **Whisper**, suit for yourself
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Resources
 
-## Deploy on Vercel
+Most details can be found inside the GDM Project Documentation on Eraser
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Forge is [MIT licensed](https://github.com/LucasRodriguesOliveira/gdm_scribe/blob/master/LICENSE).
