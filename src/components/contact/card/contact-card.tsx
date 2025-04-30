@@ -6,7 +6,7 @@ import {
   Presence,
   VStack,
 } from '@chakra-ui/react';
-import { Contact } from '../../model/contact.interface';
+import { Contact } from '../../../model/contact.interface';
 
 interface ContactCardProps {
   contact: Contact;

@@ -9,8 +9,11 @@ const compat = new FlatCompat({
   baseDirectory: __dirname,
 });
 
+const test = new FlatCompat();
+
 const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
+  ...test.config({ ignorePatterns: 'src/components/ui/**.tsx' })
 ];
 
 export default eslintConfig;
